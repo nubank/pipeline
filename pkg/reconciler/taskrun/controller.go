@@ -69,6 +69,7 @@ func NewController(opts *pipeline.Options, clock clock.PassiveClock) func(contex
 			cloudEventClient:  cloudeventclient.Get(ctx),
 			metrics:           taskrunmetrics.Get(ctx),
 			entrypointCache:   entrypointCache,
+			podLister:         podInformer.Lister(),
 			pvcHandler:        volumeclaim.NewPVCHandler(kubeclientset, logger),
 		}
 		impl := taskrunreconciler.NewImpl(ctx, c, func(impl *controller.Impl) controller.Options {
