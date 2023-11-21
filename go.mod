@@ -76,7 +76,7 @@ require (
 	github.com/cloudflare/circl v1.1.0 // indirect
 	github.com/emicklei/go-restful/v3 v3.9.0 // indirect
 	github.com/fatih/color v1.13.0 // indirect
-	github.com/go-jose/go-jose/v3 v3.0.0 // indirect
+	github.com/go-jose/go-jose/v3 v3.0.1 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/google/gnostic v0.6.9 // indirect
 	github.com/googleapis/enterprise-certificate-proxy v0.2.3 // indirect
