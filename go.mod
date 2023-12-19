@@ -6,7 +6,7 @@ require (
 	github.com/Microsoft/go-winio v0.6.0 // indirect
 	github.com/ahmetb/gen-crd-api-reference-docs v0.3.1-0.20220720053627-e327d0730470 // Waiting for https://github.com/ahmetb/gen-crd-api-reference-docs/pull/43/files to merge
 	github.com/cloudevents/sdk-go/v2 v2.13.0
-	github.com/containerd/containerd v1.6.19
+	github.com/containerd/containerd v1.6.26
 	github.com/go-git/go-git/v5 v5.6.1
 	github.com/google/go-cmp v0.5.9
 	github.com/google/go-containerregistry v0.14.0
@@ -16,7 +16,7 @@ require (
 	github.com/hashicorp/golang-lru v0.5.4
 	github.com/jenkins-x/go-scm v1.13.13
 	github.com/mitchellh/go-homedir v1.1.0
-	github.com/opencontainers/image-spec v1.1.0-rc2
+	github.com/opencontainers/image-spec v1.1.0-rc2.0.20221005185240-3a7f492d3f1b
 	github.com/pkg/errors v0.9.1
 	github.com/sigstore/sigstore v1.6.1
 	github.com/spiffe/go-spiffe/v2 v2.1.4
@@ -25,7 +25,7 @@ require (
 	go.opencensus.io v0.24.0
 	go.uber.org/zap v1.24.0
 	golang.org/x/exp v0.0.0-20230307190834-24139beb5833
-	golang.org/x/oauth2 v0.6.0 // indirect
+	golang.org/x/oauth2 v0.10.0 // indirect
 	gomodules.xyz/jsonpatch/v2 v2.2.0
 	gopkg.in/square/go-jose.v2 v2.6.0
 	k8s.io/api v0.25.8
@@ -66,21 +66,24 @@ require (
 
 require (
 	cloud.google.com/go/compute/metadata v0.2.3 // indirect
-	cloud.google.com/go/iam v0.13.0 // indirect
-	cloud.google.com/go/kms v1.10.1 // indirect
+	cloud.google.com/go/iam v1.1.1 // indirect
+	cloud.google.com/go/kms v1.12.1 // indirect
 	github.com/Azure/go-autorest/autorest/to v0.4.0 // indirect
 	github.com/Azure/go-autorest/autorest/validation v0.3.1 // indirect
+	github.com/Microsoft/hcsshim v0.9.10 // indirect
 	github.com/aws/aws-sdk-go-v2/service/kms v1.20.8 // indirect
 	github.com/aws/aws-sdk-go-v2/service/ssooidc v1.14.6 // indirect
 	github.com/cenkalti/backoff/v3 v3.2.2 // indirect
 	github.com/cloudflare/circl v1.1.0 // indirect
-	github.com/emicklei/go-restful/v3 v3.9.0 // indirect
+	github.com/containerd/log v0.1.0 // indirect
+	github.com/emicklei/go-restful/v3 v3.10.1 // indirect
 	github.com/fatih/color v1.13.0 // indirect
 	github.com/go-jose/go-jose/v3 v3.0.0 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/google/gnostic v0.6.9 // indirect
+	github.com/google/s2a-go v0.1.4 // indirect
 	github.com/googleapis/enterprise-certificate-proxy v0.2.3 // indirect
-	github.com/googleapis/gax-go/v2 v2.8.0 // indirect
+	github.com/googleapis/gax-go/v2 v2.11.0 // indirect
 	github.com/grpc-ecosystem/grpc-gateway/v2 v2.11.3 // indirect
 	github.com/hashicorp/go-cleanhttp v0.5.2 // indirect
 	github.com/hashicorp/go-retryablehttp v0.7.2 // indirect
@@ -100,10 +103,12 @@ require (
 	github.com/theupdateframework/go-tuf v0.5.2 // indirect
 	github.com/titanous/rocacheck v0.0.0-20171023193734-afe73141d399 // indirect
 	github.com/zeebo/errs v1.3.0 // indirect
+	google.golang.org/genproto/googleapis/api v0.0.0-20230711160842-782d3b101e98 // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20230711160842-782d3b101e98 // indirect
 )
 
 require (
-	cloud.google.com/go/compute v1.19.0 // indirect
+	cloud.google.com/go/compute v1.21.0 // indirect
 	contrib.go.opencensus.io/exporter/ocagent v0.7.1-0.20200907061046-05415f1de66d // indirect
 	contrib.go.opencensus.io/exporter/prometheus v0.4.0 // indirect
 	github.com/Azure/azure-sdk-for-go v68.0.0+incompatible // indirect
@@ -183,27 +188,27 @@ require (
 	github.com/russross/blackfriday/v2 v2.1.0 // indirect
 	github.com/shurcooL/githubv4 v0.0.0-20190718010115-4ba037080260 // indirect
 	github.com/shurcooL/graphql v0.0.0-20181231061246-d48a9a75455f // indirect
-	github.com/sirupsen/logrus v1.9.0 // indirect
+	github.com/sirupsen/logrus v1.9.3 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
-	github.com/stretchr/testify v1.8.2
+	github.com/stretchr/testify v1.8.4
 	github.com/vbatts/tar-split v0.11.2 // indirect
 	go.uber.org/atomic v1.10.0 // indirect
 	go.uber.org/automaxprocs v1.4.0 // indirect
 	go.uber.org/multierr v1.8.0 // indirect
-	golang.org/x/crypto v0.7.0 // indirect
+	golang.org/x/crypto v0.14.0 // indirect
 	golang.org/x/mod v0.9.0 // indirect
-	golang.org/x/net v0.8.0 // indirect
-	golang.org/x/sync v0.1.0
-	golang.org/x/sys v0.6.0 // indirect
-	golang.org/x/term v0.6.0 // indirect
-	golang.org/x/text v0.8.0 // indirect
+	golang.org/x/net v0.17.0 // indirect
+	golang.org/x/sync v0.3.0
+	golang.org/x/sys v0.13.0 // indirect
+	golang.org/x/term v0.13.0 // indirect
+	golang.org/x/text v0.13.0 // indirect
 	golang.org/x/time v0.3.0 // indirect
 	golang.org/x/tools v0.7.0 // indirect
-	google.golang.org/api v0.115.0 // indirect
+	google.golang.org/api v0.126.0 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
-	google.golang.org/genproto v0.0.0-20230331144136-dcfb400f0633 // indirect
-	google.golang.org/grpc v1.54.0
-	google.golang.org/protobuf v1.30.0
+	google.golang.org/genproto v0.0.0-20230711160842-782d3b101e98 // indirect
+	google.golang.org/grpc v1.58.3
+	google.golang.org/protobuf v1.31.0
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
